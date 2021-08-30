@@ -1,3 +1,6 @@
+// Option<T> and Result<T,E> are both enums
+
+
 #![allow(dead_code)] // this line prevents compiler warnings
 
 enum Species {

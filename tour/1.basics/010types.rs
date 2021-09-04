@@ -48,4 +48,15 @@ fn main() {
     let nums: [i32; 3] = [1, 2, 3];
     println!("{:?}", nums);
     println!("{}", nums[1]);
+
+    //  division operator
+    let var1 = 1;
+    let var2 = 2;
+    let var3 = var1/var2; // result is a int since the divisor and dividend are integers
+    println!("{}/{} = {}", var1, var2, var3);
+    
+    let float1 = 1.0;
+    let float2 = 2.0;
+    let flot3 = float1/float2; // now result is float since the divident and divisors are float
+    println!("{}/{} = {}", float1, float2, flot3);
 }

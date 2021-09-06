@@ -4,6 +4,18 @@ struct BagOfHolding<T> {
     item: T,
 }
 
+#[derive(Debug)]
+struct Rectangle<T, U> {
+    width: T,
+    height: U,
+}
+
+impl<T, U> Rectangle<T, U> {
+    fn get_width(&self) -> &T {
+        &self.width
+    }
+}
+
 /*
 Rust generally can infer the final type by looking at our instantiation, but if it needs help you can always be explicit using the ::<T> operator, also known by the name turbofish
 */
@@ -25,4 +37,11 @@ fn main() {
         "{} {} {} {}",
         i32_bag.item, bool_bag.item, float_bag.item, bag_in_bag.item.item
     );
+
+    let rect = Rectangle {
+        width: 1u8,
+        height: 3u16,
+    };
+    println!("rect is {:?}", rect);
+    println!("width is {}", rect.get_width());
 }

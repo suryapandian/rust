@@ -1,9 +1,12 @@
 # rust
 
-My learning resources on rust
+My learning resources on rust:
 
-(Rust tour)[https://github.com/suryapandian/rust/blob/main/tour]
-(Exercism)[https://github.com/suryapandian/rust/blob/main/exercism]
+[Rust tour](https://github.com/suryapandian/rust/blob/main/tour)
+
+[Linkedin Learning](https://www.linkedin.com/learning/rust-essential-training)
+
+[Exercism](https://github.com/suryapandian/rust/blob/main/exercism)
 
 
 ## misc learnings

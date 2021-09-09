@@ -1,8 +1,10 @@
 extern crate rand;
+extern crate fake;
 
 use std::io;
 use rand::Rng;
 use std::cmp::Ordering;
+use fake::{Fake, Faker};
 
 fn main() {
 
@@ -12,7 +14,7 @@ fn main() {
     //println!("Secret number is = {}", secret_number);
 
     loop {
-        println!("Please input your guess..");
+        println!("Please input your guess.. {} {} {} ", (1..34).fake::<String>() , (1..34).fake::<String>(), (1..34).fake::<String>());
 
         let mut guess = String::new();
 

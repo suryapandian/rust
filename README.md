@@ -8,6 +8,9 @@ My learning resources on rust:
 
 [Exercism](https://github.com/suryapandian/rust/blob/main/exercism)
 
+`cargo` manages projects
+`rustup` manages rust installations
+
 
 ## misc learnings
 
